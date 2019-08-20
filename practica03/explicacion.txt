@@ -1,0 +1,10 @@
+Para Operadores.java:
+Para divisor entero se imprime un resultado sin los decimales porque tenemos un tipo original int (entero).
+Debido a esto la solucion tiene que ser del mismo tipo primitivo, y no toma en cuenta los decimales después del número entero.
+NO REDONDEA
+Para divisor real, como definimos a la variable original como double, el resultado también tomará en cuenta los decimales.
+
+Para PrePost.java:
+Se imprime dos veces el número 17, porque a diferencia de en los anteriores, el cambio no se hace directamente en la variable, solo en la manera en la que se va a imprimir.
+Es decir, en los casos anteriores, al cambiar directamente la variable, si se cambió en la memoria, sin embargo al poner el cambio directamente en la impresión,
+es como si solo hubieramos tomado el valor original y le restaramos uno a la hora de imprimir.
