@@ -1,9 +1,0 @@
-Línea 18: Se pusieron dobles comillas en un caracter. Cambié las comillas.
-Línea 18: La variable ch no existía. La cambié a ch1.
-Línea 17: El tipo Char no existe. Cambié la c a minúscula.
-Línea 11: Era un tipo con una cantidad muy limitada de bytes. Lo cambié por int.
-Línea 14: La variable no era la misma, por comenzar por mayúscula.
-Línea 14: No podemos pasar de un double a un long (número sin decimales). Lo cambié a double.
-Línea 10: No alcanza el numero de bytes del tipo byte para ese número. Lo cambié a int.
-Línea 9: El tipo boolean es para valores de verdad, no para números. Cambié el valor a false.
-Línea 4 y Línea 19: Error al ejecutar debido a que no se puede dividir entre cero. Cambié el valor de a a 4.
