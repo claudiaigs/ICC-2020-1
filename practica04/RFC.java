@@ -20,7 +20,6 @@ public class RFC {
 		rfc = nombre.substring(espacio1, espacio3);
 		rfcn = nombre.substring(espacio2, espacio4);
 		rfc = rfc + rfcn;
-		System.out.println(rfc);
 		rfc = rfc + (nombre.substring(0 , 1));
 		rfcf = nacimiento.substring(8,10);
 		rfcf = rfcf + (nacimiento.substring(3,5));
