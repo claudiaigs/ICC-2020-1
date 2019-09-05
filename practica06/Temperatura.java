@@ -1,13 +1,13 @@
 public class Temperatura {
 public static int CELCIUS = 2;
-public static int FARENHEIT = 1;
+public static int FAHRENHEIT = 1;
 double valor;
 int escala;
 public Temperatura (double valor, int escala){
   this.valor = valor;
   this.escala = escala;
 }
-public double convertirAFarenheit (double valorC){
+public double convertirAFahrenheit (double valorC){
   return valorC*18+32;
 }
 public double convertirACelcius (double valor){
@@ -21,12 +21,12 @@ public double obtenerTemperaturaEnCelcius (){
     return convertirACelcius(valor);
   }
 }
-public double obtenerTemperaturaEnFarenheit (){
-  if(escala==FARENHEIT){
+public double obtenerTemperaturaEnFahrenheit (){
+  if(escala==FAHRENHEIT){
     return valor;
   }
   else{
-    return convertirAFarenheit(valor);
+    return convertirAFahrenheit(valor);
   }
 }
 public boolean esIgual (Temperatura temp){
