@@ -8,7 +8,7 @@ public Temperatura (double valor, int escala){
   this.escala = escala;
 }
 public double convertirAFahrenheit (double valorC){
-  return valorC*18+32;
+  return valorC*1.8+32;
 }
 public double convertirACelcius (double valor){
   return (valor-32)/1.8;
