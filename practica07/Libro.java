@@ -43,19 +43,19 @@ public class Libro {
     añoPubli = nuevoAño;
   }
 /**Devuelve el titulo del libro
-* @return el titulo del libro
+* @return String - el titulo del libro
 */
   public String getTitulo (){
     return titulo;
   }
 /**Devuelve el nombre del autor del libro
-* @return el autor del libro
+* @return String - el autor del libro
 */
   public String getAutor(){
     return autor;
   }
 /**Devuelve el año de Publicación del libro
-* @return año de publicación del libro
+* @return int - año de publicación del libro
 */
   public int getAño(){
     return añoPubli;
