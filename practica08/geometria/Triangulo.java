@@ -61,4 +61,13 @@ public class Triangulo{
       return ESCALENO;
     }
   }
+public Punto getA(){
+  return a;
+}
+public Punto getB(){
+  return b;
+}
+public Punto getC(){
+  return c;
+}
 }
